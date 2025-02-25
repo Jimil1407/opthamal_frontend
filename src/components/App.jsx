@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import UploadForm from './components/UploadForm';
-import KnowledgeGraph from './components/KnowledgeGraph';
+import UploadForm from './UploadForm';
+import KnowledgeGraph from './KnowledgeGraph';
 
 const App = () => {
   const [result, setResult] = useState(null);
